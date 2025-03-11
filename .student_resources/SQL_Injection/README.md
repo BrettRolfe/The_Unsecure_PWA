@@ -11,6 +11,7 @@ A SQL injection attack consists of inserting or "injecting" SQL code via the inp
    - `105 OR 1=1`
    - `" OR ""="`
    - `105; DROP TABLE users`
+   - ' OR ''='
 
 ```SQL
 --You need to force:
